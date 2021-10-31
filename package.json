@@ -1,11 +1,10 @@
 {
   "name": "auth",
   "version": "1.0.0",
-  "description": "Our Personal Authentication Service",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -18,11 +17,12 @@
     "url": "https://github.com/Tech-Phantoms/Auth/issues"
   },
   "homepage": "https://github.com/Tech-Phantoms/Auth#readme",
-  "dependencies": {
-    "@supabase/supabase-js": "^1.25.1",
-    "express": "^4.17.1"
-  },
   "devDependencies": {
-    "nodemon": "^2.0.14"
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
