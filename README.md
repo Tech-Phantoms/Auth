@@ -3,6 +3,5 @@
 </h1>
 
 <h3 align="center">
-Tech Phantoms Auth
+Tech Phantoms Authentication service
 </h3>
-
