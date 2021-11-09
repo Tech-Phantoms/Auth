@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: EndBug/label-sync@v1.1.0
+      - uses: EndBug/label-sync@v2.0.0
         with:
           # If you want to use a config file, you can put its path or URL here (more info in the paragraphs below)
           config-file: 'https://github.com/Tech-Phantoms/.github/blob/main/.github/label-list.yml'
@@ -16,5 +16,5 @@ jobs:
           # If you want to delete any additional label, set this to true
           delete-other-labels: true
 
-            # You can change the token used to change the labels, this is the default one
+          # You can change the token used to change the labels, this is the default one
           token: ${{ secrets.GITHUB_TOKEN }}
