@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: EndBug/label-sync@v2
+      - uses: EndBug/label-sync@v1.1.0
         with:
           # If you want to use a config file, you can put its path or URL here (more info in the paragraphs below)
           config-file: 'https://github.com/Tech-Phantoms/.github/blob/main/.github/label-list.yml'
