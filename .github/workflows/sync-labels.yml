@@ -11,7 +11,7 @@ jobs:
       - uses: EndBug/label-sync@v2.0.0
         with:
           # If you want to use a config file, you can put its path or URL here (more info in the paragraphs below)
-          config-file: "https://github.com/Tech-Phantoms/.github/blob/main/.github/label-list.yml"
+          config-file: "https://raw.githubusercontent.com/Tech-Phantoms/.github/main/.github/label-list.yml"
 
           # If you want to delete any additional label, set this to true
           delete-other-labels: true
