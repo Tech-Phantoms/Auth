@@ -7,11 +7,11 @@ import Dashboard from './pages/dashboard';
 
 const SUPABASE_URL = "https://htburghwulpjmpkjxyrq.supabase.co";
 
-const supabase = createClient(SUPABASE_URL, process.env.REACT_APP_SUPABASE_SERVICE_KEY);
+
 
 function App() {
   const [user, setUser] = useState(
-    supabase.auth.user()
+   
   );
   /**
    * When successfully Signed in you have 
@@ -23,17 +23,14 @@ function App() {
   console.log(userData);
 
   const login = async () => {
-    const { user, error } = await supabase.auth.signIn({
-      provider: "github",
-    });
+    
+    ;
 
-    if (!error) {
-      setUser(user);
-    }
+   
   };
 
   useEffect(() => {
-    setUser(supabase.auth.user());
+    
   }, []);
 
   if (user) {
