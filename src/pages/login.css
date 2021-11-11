@@ -1,0 +1,34 @@
+.loginbg{
+    background: #f1bb0704;
+    background: -webkit-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+    background: -moz-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+    background: -o-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+    background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+    height: 600px;   
+    display:flex;
+    justify-content: center;
+    
+
+   
+}
+.sigin{
+width:  25% ;
+
+
+
+}
+.img{
+    
+    margin-bottom: 2% ;
+    width: 100%; 
+    height: 200px;
+    
+}
+.box{
+
+    width: 100%; 
+}
+h1{
+    margin-top: 50%;
+    
+}

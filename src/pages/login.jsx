@@ -1,18 +1,26 @@
 import React from 'react';
+import {Form,Button} from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './login.css';
+
 
 const Login = ({ login }) => {
-    return <div>
-        <center>
-            <h1>Tech Phantoms Auth</h1>
-        </center>
+    
+    return (
+        <div className = "loginbg">
+       
+        <Form className = "sigin">
+        <h1>Tech-Phantoms</h1>
+        <img className="img"src="banner.png" alt="haha" />
 
-        <br />
-        <br />
-
-        <center>
-            <button onClick={login}>Login</button>
-        </center>
-    </div>
+        <Button className ="box" variant="primary" type="submit" to href="https://github.com/login">
+          Login with Github
+        </Button>
+      </Form>
+  
+      </div>
+    )
+    
 };
 
 
